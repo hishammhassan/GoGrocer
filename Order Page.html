@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="shortcut icon" href="images/logo without text.png"/>
+    <!-- Header Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="Navigation">
+            <a href="Home Page.html" class="logo">
+                <span class="Go">GO</span> <span class="grocer">grocer</span>
+            </a>
+            <section class="header">
+                <ul class="menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="Dairy Products.html" class="nav-link">Dairy Products</a></li>
+                    <li><a href="Vegetables.html" class="nav-link">Vegetables</a></li>
+                    <li><a href="Cosmetics.html" class="nav-link">Cosmetics</a></li>
+                    <li><a href="Order Page.html" class="nav-link active">Order Page</a></li>
+                    <li><a href="About US.html" class="nav-link">About Us</a></li>
+                    <li><a href="Loyalty Registration.html" class="nav-link">Loyalty Registration</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    
+    <div class="order_container">
+        <div id="OrderPageHead"><h1>Order From Here</h1></div>
+        <form id="order-form" method="POST">
+            <div class="form-group" id="form-group-name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Mrs Muzni Rajabdeen">
+            </div>
+            <div class="form-group" id="form-group-email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="MissMuzni69@gmail.com">
+            </div>
+            <div class="form-group" id="form-group-address">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" required placeholder="69 Mount Lavinia Road, Dehiwala">
+            </div>
+            <button id="order_btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="row">
+                <ul>
+                    <li class="normal_footer_pages"><a href="index.html">Home Page</a></li>
+                    <li class="normal_footer_pages"><a href="Dairy Products.html">Dairy Products</a></li>
+                    <li class="normal_footer_pages"><a href="Vegetables.html">Vegetables</a></li>
+                    <li class="active_footer"><a href="Order Page.html">Go To Top</a></li>
+                    <li class="normal_footer_pages"><a href="Cosmetics.html">Cosmetics</a></li>                  
+                    <li class="normal_footer_pages"><a href="About US.html">About Us</a></li>
+                    <li class="normal_footer_pages"><a href="Loyalty Registration.html">Loyalty Registration</a></li>
+                </ul>
+            </div>
+            <div class="row_copyright">
+                Copyright © 2024 Hisham Hassan (CB012741)
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
